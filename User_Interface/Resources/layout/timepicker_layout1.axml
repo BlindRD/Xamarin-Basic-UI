@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="wrap_content">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="2"
+                android:id="@+id/textView35" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_height="match_parent">
+            <Button
+                android:text="NEw Time"
+                android:layout_column="2"
+                android:id="@+id/button1" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

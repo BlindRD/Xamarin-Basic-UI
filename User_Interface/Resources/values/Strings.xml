@@ -2,4 +2,12 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">User_Interface</string>
+  <string-array name="myStringArray">
+    <item>Applejack</item>
+    <item>Rarity</item>
+    <item>Twiligth</item>
+    <item>Fluttershy</item>
+    <item>Rainbow</item>
+    <item>Lyra</item>
+  </string-array>
 </resources>
